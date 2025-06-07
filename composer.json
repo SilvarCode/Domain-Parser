@@ -1,0 +1,45 @@
+{
+  "name": "silvarcode/domain-parser",
+  "type": "library",
+  "description": "A high-performance PHP library for validating and parsing domain names using the Public Suffix List.",
+  "keywords": [
+    "domain",
+    "domain-parser",
+    "domain validator",
+    "public suffix list",
+    "psl",
+    "tld",
+    "subdomain",
+    "url",
+    "parser",
+    "php"
+  ],
+  "homepage": "https://github.com/silvarcode/domain-parser",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcus Ribeiro",
+      "email": "mds@silvarcode.com",
+      "homepage": "https://silvarcode.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.2"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "SilvarCode\\DomainParser\\": "src/"
+    }
+  },
+  "bin": [
+    "bin/check.php"
+  ],
+  "scripts": {
+    "check-domain": [
+      "@php bin/check.php"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+# Environment & config
+.env
+
+# PHPUnit
+.phpunit.result.cache
+
+# Composer
+/vendor/
+/composer.lock
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+
+# IDEs
+/.idea/
