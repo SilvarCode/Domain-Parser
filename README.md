@@ -106,6 +106,15 @@ Subdomains:
   - sub1
 ```
 
+## Learn More!
+
+We’ve published an in-depth blog post on our website that covers the design, features, and practical usage of the SilvarCode Domain Parser.  
+It’s a great resource if you want to understand the package better or see real-world examples.
+
+👉 [Read the full blog post here](https://silvarcode.com/blog/en-gb/post/a062f6fa-f753-4c3c-8031-20a65b8e9aff/introducing-silvarcode-domain-parser-a-simple-and-accurate-php-tool-for-validation)
+
+Feel free to share your feedback or questions in the GitHub issues or discussions!
+
 
 ## License
 
